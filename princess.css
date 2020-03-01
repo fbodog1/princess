@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 h1, p, img {
   margin-bottom: 1rem;
 }
@@ -25,3 +26,32 @@ img:hover {
 h1 {
   color: blue;
 }
+=======
+h1, p, img {
+  margin-bottom: 1rem;
+}
+h1,
+p {
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: 300;
+}
+p {
+  font-style: italic;
+  font-size: .825rem;
+}
+img {
+  display: block;
+  width: 200px;
+  margin: 0 auto 1rem;
+  transition: .5s;
+  transition-delay: .5s;
+}
+
+img:hover {
+  transform: rotate(540deg);
+}
+h1 {
+  color: blue;
+}
+>>>>>>> 17f3eefd1ea646cc7b58793ba484aa311a216856
